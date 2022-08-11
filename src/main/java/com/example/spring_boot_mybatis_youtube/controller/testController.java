@@ -1,14 +1,16 @@
 package com.example.spring_boot_mybatis_youtube.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class testController {
 
-  @GetMapping("/test")
-  public String hello() {
-    return "hello";
+  @GetMapping("/test1")
+  public String test1() {
+    return "test1";
   }
+
+
   
 }
